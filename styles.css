@@ -42,19 +42,19 @@ body {
   margin: 2rem 0;
 }
 
-.nav_list {
+.nav-list {
   list-style: none;
 
   display: flex;
 }
 
-.nav_item:not(:last-child) {
+.nav-item:not(:last-child) {
   padding-right: 1.3rem;
 }
 
-.nav_link,
-.nav_link:link,
-.nav_link:visited {
+.nav-link,
+.nav-link:link,
+.nav-link:visited {
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
@@ -89,3 +89,57 @@ body {
 }
 
 /* Services page */
+
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+.services-container {
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+
+.services-img-container {
+  width: 40vw;
+}
+
+.services-img-container-2 {
+  width: 35vw;
+}
+
+.services-img-1 {
+  width: 73%;
+}
+
+.services-img-2 {
+  width: 90%;
+}
+
+.services-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 30vw;
+}
+
+.services-content-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 50vw;
+}
+
+.services-content-heading {
+  color: #6b3cc9;
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+.services-content-para {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
