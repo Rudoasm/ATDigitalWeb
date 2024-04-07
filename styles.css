@@ -1,3 +1,48 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
 body {
-    color: red; 
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.nav {
+  background-color: #6b3cc9;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  width: 20rem;
+  margin: 2rem 0;
+}
+
+.nav_list {
+  list-style: none;
+
+  display: flex;
+}
+
+.nav_item:not(:last-child) {
+  padding-right: 1rem;
+}
+
+.nav_link,
+.nav_link:link,
+.nav_link:visited {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.8rem;
+  transition: all 0.2s;
+  border-right: 5px solid transparent;
 }
