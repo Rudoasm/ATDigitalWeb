@@ -1,3 +1,4 @@
+/* Boilerplate */
 *,
 *::before,
 *::after {
@@ -14,6 +15,20 @@ body {
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
+
+/* Button */
+.btn {
+  cursor: pointer;
+  border: none;
+  text-transform: uppercase;
+  background-color: #f28d35;
+  color: #fff;
+  font-weight: 700;
+  padding: 1.2rem 2rem;
+  border-radius: 4px;
+}
+
+/* Navbar */
 
 .nav {
   background-color: #6b3cc9;
@@ -34,15 +49,43 @@ body {
 }
 
 .nav_item:not(:last-child) {
-  padding-right: 1rem;
+  padding-right: 1.3rem;
 }
 
 .nav_link,
 .nav_link:link,
 .nav_link:visited {
   text-decoration: none;
+  text-transform: uppercase;
   color: #fff;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   transition: all 0.2s;
   border-right: 5px solid transparent;
 }
+
+/* Header */
+.header {
+  background-image: url("img/Hero\ Image.jpg");
+  background-size: cover;
+  height: 90vh;
+
+  position: relative;
+}
+
+.header-frame {
+  position: absolute;
+  bottom: 2.5rem;
+  left: 5rem;
+
+  width: 50rem;
+  font-size: 1.8rem;
+  background-image: linear-gradient(to right, #4dca79, #1cbddd);
+  color: #fff;
+  padding: 1.5rem 1.8rem;
+}
+
+.frame-heading {
+  margin-bottom: 1.7rem;
+}
+
+/* Services page */
