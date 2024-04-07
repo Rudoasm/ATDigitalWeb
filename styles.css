@@ -143,3 +143,65 @@ body {
   font-size: 1.4rem;
   margin-bottom: 1rem;
 }
+
+/* Accordian section */
+
+/* Footer section */
+footer {
+  background-color: #6b3cc9;
+  color: white;
+  padding: 20px 0;
+}
+
+.footer-logo {
+  margin-bottom: 1.7rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 10%;
+}
+
+.brand-section {
+  width: 25%;
+  margin-bottom: 1.5rem;
+}
+
+.footer-section h2,
+.footer-section h3 {
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.footer-section p,
+.footer-section ul {
+  color: #fff;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section li:not(:last-child) {
+  margin-bottom: 0.8rem;
+}
+
+.footer-bottom {
+  width: 30%;
+  text-align: center;
+  border-top: 1px solid #fff;
+  padding-top: 10px;
+  margin: 6rem auto 0;
+}
+
+.links a {
+  color: #cccccc;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
