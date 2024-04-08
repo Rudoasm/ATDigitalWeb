@@ -9,3 +9,16 @@ function toggleAccordion(event) {
       event.target.querySelector('.symbol').textContent = '-';
     }
   }
+
+  document.addEventListener('DOMContentLoaded', function() {
+    const navigationToggle = document.getElementById('navigation-toggle');
+    const homeListItem = document.getElementById('home-list-item');
+
+    navigationToggle.addEventListener('change', function() {
+      if (navigationToggle.checked) {
+        homeListItem.style.display = 'block';
+      } else {
+        homeListItem.style.display = 'none';
+      }
+    });
+  });
